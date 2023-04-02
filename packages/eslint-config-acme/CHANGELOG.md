@@ -1,5 +1,11 @@
 # eslint-config-sosa
 
+## 1.0.0
+
+### Major Changes
+
+- 2bdfa56: test
+
 ## 0.2.0
 
 ### Minor Changes
