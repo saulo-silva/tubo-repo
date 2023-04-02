@@ -1,5 +1,5 @@
-import { Button } from "@acme/core";
-import { useIsomorphicLayoutEffect } from "@acme/utils";
+import { Button } from "@sosa/core";
+import { useIsomorphicLayoutEffect } from "@sosa/utils";
 
 export default function Docs() {
   useIsomorphicLayoutEffect(() => {

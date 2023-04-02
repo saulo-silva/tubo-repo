@@ -1,4 +1,4 @@
-# @acme/core
+# @sosa/core
 
 ## 0.1.0
 
