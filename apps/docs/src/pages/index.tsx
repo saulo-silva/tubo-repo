@@ -8,7 +8,7 @@ export default function Docs() {
   return (
     <div>
       <h1>Acme Documentation</h1>
-      <Button>Click me</Button>
+      <Button>Click meeee</Button>
     </div>
   );
 }
