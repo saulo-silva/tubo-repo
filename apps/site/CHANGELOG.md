@@ -1,5 +1,11 @@
 # @sosa/site
 
+## 1.1.0
+
+### Minor Changes
+
+- 75828b5: trigger production
+
 ## 1.0.0
 
 ### Major Changes
