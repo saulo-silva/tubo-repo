@@ -43,7 +43,7 @@ jobs:
         uses: "actions/checkout@v2"
         with:
           ref: ${{ github.ref }}
-      - name: "cat ./apps/site/package.json"
+      - name: "cat apps/site/package.json"
         run: cat ./apps/site/package.json
       - name: "Setup Node.js"
         uses: "actions/setup-node@v1"
@@ -55,6 +55,6 @@ jobs:
           tag-prefix: 'site.*'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PACKAGEJSON_DIR: './apps/site/package.json'
-      - name: "cat ./apps/site/package.json"
+          PACKAGEJSON_DIR: 'apps/site/package.json'
+      - name: "cat apps/site/package.json"
         run: cat ./apps/site/package.json
