@@ -6,7 +6,7 @@ on:
       - 'main'
 jobs:
   bump-version:
-    name: "Bump Version on main"
+    name: "Bump Version on master"
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout source code"
@@ -19,16 +19,7 @@ jobs:
         uses: "actions/setup-node@v1"
         with:
           node-version: 12
-      - name: "Automated Version Site"
-        uses: "phips28/gh-action-bump-version@master"
-        with:
-          tag-prefix: ''
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PACKAGEJSON_DIR: 'apps/site'
-      - name: "cat apps/site/package.json"
-        run: cat ./apps/site/package.json
-      - name: "Automated Version Site"
+      - name: "Automated Version Bump"
         uses: "phips28/gh-action-bump-version@master"
         with:
           tag-prefix: ''
