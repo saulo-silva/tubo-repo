@@ -4,9 +4,8 @@ env:
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_DOCS }}
 on:
   push:
-    # Pattern matched against refs/tags
-    tags:
-      - 'docs.*'
+    branch:
+      - 'releases-docs/**'
 jobs:
   Deploy-Production:
     runs-on: ubuntu-latest

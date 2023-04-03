@@ -1,9 +1,8 @@
 name: Update Version
 on:
   push:
-    # Pattern matched against refs/tags
     branch:
-      - 'releases/**'
+      - 'releases-site/**'
 jobs:
   bump-version:
     name: "Bump Version on master"
