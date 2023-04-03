@@ -51,8 +51,8 @@ jobs:
           node-version: 12
       - name: "Automated Version Bump"
         uses: "phips28/gh-action-bump-version@master"
-#        with:
-#          tag-prefix: 'v'
+        with:
+          tag-prefix: ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PACKAGEJSON_DIR: 'apps/site'
