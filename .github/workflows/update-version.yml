@@ -3,7 +3,7 @@ on:
   push:
     # Pattern matched against refs/tags
     branch:
-      - 'main'
+      - 'releases/**'
 jobs:
   bump-version:
     name: "Bump Version on master"
