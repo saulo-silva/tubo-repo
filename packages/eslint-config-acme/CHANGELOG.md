@@ -1,5 +1,11 @@
 # eslint-config-sosa
 
+## 1.1.0
+
+### Minor Changes
+
+- 959123e: teste
+
 ## 1.0.0
 
 ### Major Changes
